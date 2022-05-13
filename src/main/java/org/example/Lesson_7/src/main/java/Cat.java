@@ -2,12 +2,9 @@ public class Cat {
 
     private String name;
     private int appetite;
-    private boolean checkSatiety;
 
-    protected Cat(String name, int appetite, boolean checkSatiety) {
-        this.name = name;
-        this.appetite=appetite;
-    }
+    //Exercise 2-4
+    private boolean checkSatiety;
 
     protected void eat(Bowl bowl) {
         if (bowl.getFoodAmount()<appetite) {
@@ -19,6 +16,12 @@ public class Cat {
             checkSatiety=true;
         }
 
+    }
+    // End Exercise 2-4
+
+    protected Cat(String name, int appetite, boolean checkSatiety) {
+        this.name = name;
+        this.appetite=appetite;
     }
 
     protected boolean getSatiety() {

@@ -2,6 +2,7 @@ public class Homework {
 
     public static void main(String[] args) {
 
+//Exercise 5
         Cat[] cat = new Cat[5];
         cat[0] = new Cat("Oskar", 30,false);
         cat[1] = new Cat("Murzik", 35,false);
@@ -36,5 +37,6 @@ public class Homework {
             default:
                 System.out.println("After dinner "+counter+" cats are dying from starvation");
         }
+//End Exercise 5
     }
 }
